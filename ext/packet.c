@@ -68,7 +68,7 @@ static struct datalink_type datalinks[] = {
     { -1,  0 }, /* 12: DLT_RAW */
     { -1, 24 }, /* 13: DLT_SLIP_BSDOS */
     {  5, 24 }  /* 14: DLT_PPP_BSDOS */
-#define DATALINK_MAX 127
+#define DATALINK_MAX 256
 };
 
 VALUE
